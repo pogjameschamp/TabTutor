@@ -1,5 +1,7 @@
 .App {
     text-align: center;
+    background-color: rgba(245,245,245,255);
+
 }
 
 body {
@@ -42,3 +44,25 @@ body {
     margin-right: 10px;
     color: white;
 }
+
+.flashcard {
+
+    /* App.css */
+    font-family: 'Poppins', sans-serif;
+    width: 1800px; /* Set the width of the card */
+    height: 750px;
+    margin: 40px auto; /* This centers the card in the middle of the screen vertically and horizontally */
+    
+    padding: 20px; /* This adds space inside the card */
+    background: white; 
+    border-radius: 8px; /* Gives rounded corners to the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the card */
+    text-align: center; /* Centers the text inside the card */
+
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Stacks flex items vertically */
+    justify-content: center; /* Centers flex items vertically */
+    align-items: center; /* Centers flex items horizontally */
+    /* color: rgba(99,107,111,255); */
+    color: slateblue;
+    }
