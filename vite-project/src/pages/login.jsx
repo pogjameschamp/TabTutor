@@ -6,7 +6,7 @@ export const Login = () => {
     const navigate = useNavigate();
     const signInWithGoogle = () => {
         signInWithPopup(auth, provider)
-        navigate("/")
+        navigate("/flashcard")
     }
     return (
         <div>

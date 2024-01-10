@@ -13,8 +13,8 @@ function App() {
         <Router>
         <Navbar/>
           <Routes>
-            <Route path = "/" element = {<Flashcard />}/>
-            <Route path="/login" element={ <Login />}/>
+            <Route path = "/" element = {<Login />}/>
+            <Route path="/flashcard" element={ <Flashcard />}/>
           </Routes>
         </Router>
     </div>
